@@ -1,27 +1,89 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vasishta Sri Teja Reddy</title>
+  <link rel="stylesheet" href="stylinghtml.css">
+  <style>
+    /* Internal CSS for Introduction Page */
+    body {
+      padding: 20px;
+    }
+    
+    h1 {
+      text-align: center;
+      color: #8e44ad;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .profile-intro {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    
+    .profile-intro p {
+      color: white;
+      font-size: 1.1em;
+      margin: 5px 0;
+    }
+    
+    .section-box {
+      background-color: white;
+      padding: 20px;
+      margin: 20px 0;
+      border-left: 5px solid #3498db;
+      border-radius: 5px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .section-box h2 {
+      border-left: none;
+      padding-left: 0;
+    }
+  </style>
 </head>
 <body>
-  Vasishta Sri Teja Reddy<br>
-  B.Tech 1st year at BVRW Hyderabad<br>
-  <hr>
-  About Me<br>
-  My name is Vasishta Sri Teja Reddy and I am pursuing B.Tech 1st year at BVRW Hyderabad. I enjoy learning technology, programming, and design.<br>
-  <hr>
-  Hobbies<br>
-  Tennikoit<br>
-  Chess<br>
-  Canva<br>
-  <hr>
-  Technical Skills<br>
-  C<br>
-  Python<br>
-  Excel<br>
-  Canva<br>
-  <hr>
-  Contact<br>
-  Email: rvasishtasriteja@gmail.com
+  <div class="container">
+    <h1>Vasishta Sri Teja Reddy</h1>
+    
+    <div class="profile-intro">
+      <p style="font-size: 1.2em; font-weight: bold;">B.Tech 1st year at BVRW Hyderabad</p>
+      <p>Passionate about Technology, Programming, and Design</p>
+    </div>
+    
+    <div class="section-box">
+      <h2>About Me</h2>
+      <p>My name is <span style="color: #e74c3c; font-weight: bold;">Vasishta Sri Teja Reddy</span> and I am pursuing B.Tech 1st year at <span style="color: #27ae60; font-weight: bold;">BVRW Hyderabad</span>. I enjoy learning technology, programming, and design.</p>
+    </div>
+    
+    <div class="section-box" style="border-left-color: #e74c3c;">
+      <h2>Hobbies</h2>
+      <ul style="list-style-type: disc;">
+        <li>Tennikoit</li>
+        <li>Chess</li>
+        <li>Canva</li>
+      </ul>
+    </div>
+    
+    <div class="section-box" style="border-left-color: #f39c12;">
+      <h2>Technical Skills</h2>
+      <ul style="list-style-type: circle;">
+        <li><span class="info">C</span> - Programming Language</li>
+        <li><span class="info">Python</span> - Data & Automation</li>
+        <li><span class="info">Excel</span> - Data Analysis</li>
+        <li><span class="info">Canva</span> - Design</li>
+      </ul>
+    </div>
+    
+    <div class="section-box" style="border-left-color: #16a085;">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:rvasishtasriteja@gmail.com" style="color: #e74c3c; font-weight: bold;">rvasishtasriteja@gmail.com</a></p>
+    </div>
+  </div>
 </body>
 </html>
